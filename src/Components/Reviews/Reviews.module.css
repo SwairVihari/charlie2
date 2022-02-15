@@ -1,0 +1,25 @@
+.ReviewsH1{
+    text-align: center;
+    color: #0C3F6D;
+    margin: 50px auto;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 2px auto;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+.img1{
+    width: 250px;
+    height: 500px;
+    margin:  20px 0px;
+}

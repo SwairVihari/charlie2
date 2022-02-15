@@ -1,0 +1,17 @@
+.Center{
+    text-align: center;
+    font-size: 10px;
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.footercolor{
+    color: rgb(196, 196, 196);
+}
+
+.Footer{
+    padding: 30px 30px;
+}
