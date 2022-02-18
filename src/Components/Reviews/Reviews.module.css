@@ -37,4 +37,10 @@
     .videoContainer{
         width: 80vw;
     }
+
+    .imgContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
