@@ -61,7 +61,7 @@ const ModalC = () => {
             </div>
 
 
-            <p>
+            {/* <p>
             By providing Vincero Investment Academy with my personal data: 
             </p>
 
@@ -71,7 +71,7 @@ const ModalC = () => {
 
             <p>
             *I agree that Vincero Investment Academy may collect, use and disclose my personal data for purposes in accordance with its Privacy Policy and the Personal Data Protection Act 2012. I understand that my personal data may be used for marketing purposes by Vincero Investment Academy or its partners; and I hereby consent to receive marketing and promotional materials by telephone, SMS or e-mail and through other channels as determined by Vincero Investment Academy.
-            </p>
+            </p> */}
           </Modal.Body>
         
         </Modal>

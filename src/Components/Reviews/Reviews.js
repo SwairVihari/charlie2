@@ -23,29 +23,46 @@ const Reviews  = () => {
            <Row>
                <Col lg={true}>
                <div className={Styles.videoContainer}>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                </Col>
 
                <Col lg={true}>
                <div className={Styles.videoContainer}>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                </Col>
            </Row>
 
-           <div className={Styles.imgContainer}>
-                <img className={Styles.img1} src={s3} />
-               <img className={Styles.img1} src={s4} />
-               <img className={Styles.img1} src={s5} />
+           <Row>
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               </Col>
 
-           </div>
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               </Col>
+           </Row>
 
-           <div className={Styles.imgContainer}>
-           <img className={Styles.img1} src={s6} />
-               <img className={Styles.img1} src={s7} />
-               <img className={Styles.img1} src={s8} />
-           </div>
+           <Row>
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               </Col>
+
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+               </Col>
+           </Row>
+
+
        </div>
 
 
