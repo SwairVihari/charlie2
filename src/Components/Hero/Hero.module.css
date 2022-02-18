@@ -22,3 +22,15 @@
     font-weight: 200;
 }
 
+@media screen and (max-width:1000px) {
+
+    .HeroText h1{
+        font-size: 1.4rem;
+    }
+
+    .HeroText h2{
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    
+}

@@ -52,7 +52,7 @@ const ModalC = () => {
               
             </Form>
             
-            <div>
+            <div className={Styles.ButtonContainer}>
               <Button
               className={Styles.ModalButton}>
               Reserve Your Ticket

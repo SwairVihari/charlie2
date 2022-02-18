@@ -1,13 +1,11 @@
 .ModalButton{
+    display: block;
     padding: 20px;
     width: 250px;
-    display: block;
     height: 70px;
     background-color: #E0AD19 !important;
+    /* background-color: wheat; */
     /* border: 2px solid red; */
-    margin: 1px auto;
-}
-
-.ButtonContainer{
-    border: 2px solid green
+    display: block !important;
+    margin: auto !important;
 }

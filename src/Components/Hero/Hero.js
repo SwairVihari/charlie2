@@ -12,10 +12,10 @@ const Hero = () => {
 
         <Row className={Styles.HeroText}>
           <h1>
-          How To Extract <span className={Styles.golden}> Returns Consistently From The Financial Markets Like The Big Financial </span> Institutions Using The Same Trading System  They Use
+          How To Extract <span className={Styles.golden}> Returns Consistently From The Financial Markets Like The Big Financial </span> Institutions 
           </h1>
           <h1>
-          The Same Trading System  They Use
+          {/* The Same Trading System  They Use */}
           </h1>
 
           <h2>

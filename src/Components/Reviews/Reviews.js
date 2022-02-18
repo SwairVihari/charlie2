@@ -20,10 +20,19 @@ const Reviews  = () => {
        </Row>
        
        <div>
-           <div className={Styles.imgContainer}>
-               <img className={Styles.img} src={s1} />
-               <img className={Styles.img} src={s2} />
-           </div>
+           <Row>
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+               </Col>
+
+               <Col lg={true}>
+               <div className={Styles.videoContainer}>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+               </Col>
+           </Row>
 
            <div className={Styles.imgContainer}>
                 <img className={Styles.img1} src={s3} />
