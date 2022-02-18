@@ -1,0 +1,13 @@
+.ModalButton{
+    padding: 20px;
+    width: 250px;
+    display: block;
+    height: 70px;
+    background-color: #E0AD19 !important;
+    /* border: 2px solid red; */
+    margin: 1px auto;
+}
+
+.ButtonContainer{
+    border: 2px solid green
+}

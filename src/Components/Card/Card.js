@@ -1,10 +1,11 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import ModalC from '../Modal/ModalC'
 import Styles from './Card.module.css'
 
 const Card = () => {
   return (
-    <div className={Styles.Card}>
+    <div className={`${Styles.Card}`}>
         <div className={Styles.videoContainer}>
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -34,7 +35,7 @@ const Card = () => {
             </ul>
 
 
-        <Button className='ms-5'>Value</Button>
+        <ModalC/>
         
     <p className={Styles.greyText}>
     By providing Vincero Investment Academy with my personal data: 

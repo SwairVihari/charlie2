@@ -1,5 +1,6 @@
 
 import './App.css';
+import AfterReview from './Components/AfterReview/AfterReview';
 import Card from './Components/Card/Card';
 import Footer from './Components/Footer/Footer';
 import Headline from './Components/Headline/Headline';
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Card/>
       <Reviews/>
+      <AfterReview/>
       <Footer/>
     </div>
   );

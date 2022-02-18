@@ -1,6 +1,7 @@
 .Card{
     /* border: 2px solid red; */
     display: flex;
+    
     width: 80vw;
     margin: 20px auto;
     padding: 40px;
@@ -34,3 +35,17 @@
     color: rgb(192, 192, 192);
 }
 
+@media (max-width:1000px) {
+    
+    .Card{
+       width: 100vw;
+       margin:  10px auto;
+       padding: 40px;
+        flex-direction: column;
+    }
+
+    .CardText{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
