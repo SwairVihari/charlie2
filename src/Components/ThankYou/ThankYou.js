@@ -86,6 +86,15 @@ If you don't see it, please check your Spam Folder or Promotion Tab.
         WE'LL SEE YOU SOON!
     </h1>
 
+    <div className={Styles.footer_link}>
+            <a href='/termsandcondition'>Terms |</a> |
+            
+            <a href='/privacy'>Privacy |</a> 
+            
+            <a href='/contact'> Contact</a> 
+
+            </div>
+
     </>
   )
 }

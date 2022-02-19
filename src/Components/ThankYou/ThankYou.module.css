@@ -31,6 +31,18 @@
     box-sizing: border-box;
 
 }
+
+.footer_link{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    
+}
+
+.footer_link a{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width:1000px) {
     
     .videoContainer{

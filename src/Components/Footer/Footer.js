@@ -38,6 +38,16 @@ This site is not a part of the YouTube website or Google LLC. This site is also 
  
         </Row>
 
+        <div className={Styles.footer_link}>
+            <a href='/termsandcondition'>Terms |</a> |
+            
+            <a href='/privacy'>Privacy |</a> 
+            
+            <a href='/contact'> Contact</a> 
+
+            </div>
+          
+
 
     </div>
   )
