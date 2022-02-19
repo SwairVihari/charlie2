@@ -1,0 +1,41 @@
+.videoContainer{
+    width: 50vw;
+    height: 50vh;
+    margin: 20px auto;
+}
+
+.center{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.color{
+    color:#0C3F6D;
+}
+
+.box{
+    border: 2px solid hsl(208, 80%, 24%);
+    border-radius: 22px;
+    padding-top: 0;
+    box-sizing: border-box;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.box_h1{
+    background-color: #0C3F6D;
+    color: white;
+    border-radius: 22px;
+    padding: 22px;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width:1000px) {
+    
+    .videoContainer{
+        width: 90vw;
+    }
+}
+
+

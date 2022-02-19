@@ -44,12 +44,6 @@ const ModalC = () => {
                 <Form.Control type="email" placeholder='Your Email Address Here...'/>
               </Form.Group>
 
-              <Form.Group className='mb-3'>
-                <Form.Control type="date" placeholder='Your Email Address Here...'/>
-              </Form.Group>
-
-
-              
             </Form>
             
             <div className={Styles.ButtonContainer}>
