@@ -8,7 +8,7 @@ const Card = () => {
     <div className={`${Styles.Card}`}>
         <div className={Styles.videoContainer}>
             {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XK7T3mY1V-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-            <iframe src="https://player.vimeo.com/video/679677949?h=b921de3a92" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/679680950?h=1a981d69ef" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
 
         <div className={Styles.CardText}>
