@@ -14,7 +14,7 @@ function MainComponent({setSignUp}) {
       <Hero/>
       <Card setSignUp={setSignUp} />
       <Reviews/>
-      <AfterReview/>
+      <AfterReview setSignUp={setSignUp}/>
       <Footer/>
     </div>
   );

@@ -4,7 +4,7 @@ import AfterReviewStack from './AfterReviewStack'
 import Styles from './AfterReview.module.css'
 import ModalC from '../Modal/ModalC'
 
-const AfterReview = () => {
+const AfterReview = ({setSignUp}) => {
   return (
     <>
     <Container className='my-3'>
@@ -21,7 +21,7 @@ const AfterReview = () => {
 
         
            
-            <ModalC/>
+            <ModalC setSignUp={setSignUp}/>
            
         
     </Container>
