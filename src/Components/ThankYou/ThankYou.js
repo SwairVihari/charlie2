@@ -16,6 +16,8 @@ useEffect(()=>{
           behavior: "smooth"
         });
       };
+
+      scrollToTop()
     
 
 })
