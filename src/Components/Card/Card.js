@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 import ModalC from '../Modal/ModalC'
 import Styles from './Card.module.css'
 
-const Card = () => {
+const Card = ({setSignUp}) => {
   return (
     <div className={`${Styles.Card}`}>
         <div className={Styles.videoContainer}>
@@ -36,7 +36,7 @@ const Card = () => {
             </ul>
 
 
-        <ModalC/>
+        <ModalC setSignUp={setSignUp}/>
         
     {/* <p className={Styles.greyText}>
     By providing Vincero Investment Academy with my personal data: 

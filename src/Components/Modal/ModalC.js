@@ -4,11 +4,17 @@ import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import Styles from './Modal.module.css'
 
-const ModalC = () => {
+const ModalC = ({setSignUp}) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const submitHandler = () => {
+      setSignUp(true);
+      console.log(setSignUp)
+      console.log("harsh")
+    }
   
     return (
       <>
@@ -48,6 +54,7 @@ const ModalC = () => {
             
             <div className={Styles.ButtonContainer}>
               <Button
+              onClick={submitHandler}
               className={Styles.ModalButton}>
               Reserve Your Ticket
 

@@ -11,17 +11,15 @@ import { Button } from 'react-bootstrap';
 
 function App() {
   
-   const [signUp, setSignUp] = useState(true);
+   const [signUp, setSignUp] = useState(false);
 
-   const signUpHandler = ()=>{
-     setSignUp(!signUp)
-   }
+   
   return (
     <div className="App">
-        <Button style={{position:"absolute"}} onClick={signUpHandler}>Signup</Button>
+        
     <Router>
       <Routes>
-      <Route path="/" element={!signUp ? <MainComponent/>: <ThankYou/>}/>
+      <Route path="/" element={!signUp ? <MainComponent setSignUp={setSignUp}/>: <ThankYou setSignUp={setSignUp}/>}/>
       <Route exact path="/termsandcondition" element={<Terms/>}/>
       <Route exact path="/privacy" element={<Privacy/>}/>
       <Route exact path="/contact" element={<Contact/>}/>

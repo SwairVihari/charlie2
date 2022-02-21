@@ -7,12 +7,12 @@ import Headline from '../Headline/Headline';
 import Hero from '../Hero/Hero';
 import Reviews from '../Reviews/Reviews';
 
-function MainComponent() {
+function MainComponent({setSignUp}) {
   return (
     <div className="App">
       <Headline/>
       <Hero/>
-      <Card/>
+      <Card setSignUp={setSignUp} />
       <Reviews/>
       <AfterReview/>
       <Footer/>
