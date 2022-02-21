@@ -1,8 +1,11 @@
 import React from 'react'
 import Styles from './ThankYou.module.css'
+import ScrollToTop from "react-scroll-to-top";
+
 const ThankYou = () => {
   return (
     <>
+     <ScrollToTop smooth />
     <h1 className={`${Styles.center} ${Styles.color}`}>
         Congratulations!
     </h1>
